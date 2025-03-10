@@ -11,6 +11,7 @@ The tasks model schema is:
 
 To run locally:
 create virtual environment -> python3 -m venv taskvenv
+activate venv -> source taskvenv/bin/activate
 run app in Docker -> docker-compose up --build
 
 To run tests : 
