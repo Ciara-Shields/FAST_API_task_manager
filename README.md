@@ -19,15 +19,15 @@ It allows you to create, update, retrieve, and delete tasks.
 ## Running Locally
 
 1. **Create virtual environment**:
-   python3 -m venv taskvenv
+   `python3 -m venv taskvenv`
 2. **Activate virtual environment**:
-    source taskvenv/bin/activate
+    `source taskvenv/bin/activate`
 3. **Run app in Docker**:
-    docker-compose up --build
+    `docker-compose up --build`
 
 ## Running Tests
 To run tests, use:
-  pytest
+  `pytest`
 
 ## API Documentation
   Interactive API documentation is available at:
