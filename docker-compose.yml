@@ -7,6 +7,5 @@ services:
       - "8010:8000"
     volumes:
       - .:/app
-      - ./db:/app/db
     environment:
       - PYTHONUNBUFFERED=1
